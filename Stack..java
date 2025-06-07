@@ -16,12 +16,12 @@ public class Solution{
             for(int i = 0; i < limit; i++){
                 int stackInput = input.nextInt();
                     switch(stackInput){
-                        case 1: {
+                        case 1 -> {
                             array [i] = input.next();
                             stack.push(array[i]);
                             break;
                         }
-                        case 2: {
+                        case 2 -> {
                             if(!stack.isEmpty()){
                                 stack.pop();
                             }
